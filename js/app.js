@@ -8,6 +8,7 @@ console.log(welcomeMessage);
 
 // # : Namanya crash. Digunakan krn kita memilih element berdasarkan ID
 // Stlh tanda crash, itu nama id yang kita digunakan di html
+// document.querySelector : Digunakan untuk mencari sebuah tag/id/class buat di mengisi variable yang telah kita buat
 
 let profileAvatar = document.querySelector("#profileAvatar");
 let profileName = document.querySelector("#profileName");
